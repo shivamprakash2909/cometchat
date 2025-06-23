@@ -1,0 +1,28 @@
+.PartnershipPgm-title {
+  padding: 100px 60px 60px 60px;
+}
+.PartnershipPgm-title p {
+  color: rgba(104, 82, 214, 1);
+}
+.PartnershipPgm-title h2 {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 106%;
+  margin-bottom: 20px;
+}
+.PartnershipPgm-title div {
+  max-width: 100%;
+}
+@media screen and (max-width: 640px) {
+  .PartnershipPgm-title {
+    padding: 30px 5px 30px 5px;
+    width: 90vw;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .PartnershipPgm-title div {
+    max-width: 40%;
+  }
+}

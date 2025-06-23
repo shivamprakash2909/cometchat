@@ -1,0 +1,16 @@
+.program-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 60px;
+  padding: 10px 60px 60px 60px;
+}
+.program-tiles p {
+  margin-top: 10px;
+}
+@media screen and (max-width: 640px) {
+  .program-tiles {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+}

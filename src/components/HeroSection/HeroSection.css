@@ -1,0 +1,103 @@
+.HeroSection {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 90.82%, rgb(24, 19, 34) 106.47%),
+    linear-gradient(270deg, rgb(0, 0, 0) -17.84%, rgba(0, 0, 0, 0) 11.68%);
+  color: white;
+  padding: 60px 120px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.Herosection-left {
+  width: 100%;
+  max-width: 440px;
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.Herosection-left h2 {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 106%;
+  margin-bottom: 20px;
+}
+
+.Herosection-left p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(250, 250, 255, 0.6);
+}
+
+.Herosection-right {
+  flex: 1;
+  max-width: 450px;
+  background-color: rgba(250, 250, 255, 0.04);
+  padding: 32px;
+  border-radius: 20px;
+}
+.Herosection-right h2 {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 350;
+  font-size: 38px;
+  line-height: 106%;
+  margin-bottom: 20px;
+}
+
+.form div {
+  margin-bottom: 20px;
+  padding-right: 30px;
+}
+
+.form p {
+  margin: 0 0 6px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(250, 250, 255, 0.6);
+}
+
+.form input {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2a2b4c;
+  color: white;
+}
+
+.form input::placeholder {
+  color: #aaa;
+}
+
+.form button {
+  width: 160px;
+  padding: 12px 10px;
+  background-color: #8b5cf6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form button:hover {
+  background-color: #7a3ded;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .HeroSection {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .Herosection-left h2 {
+    font-size: 32px;
+  }
+}

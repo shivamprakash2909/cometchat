@@ -1,0 +1,47 @@
+.partner-section {
+  background-color: rgba(10, 9, 20, 1);
+  color: white;
+  padding: 100px 60px 60px 60px;
+}
+.partner-section .desktop {
+  display: block;
+}
+.partner-section .mobiles {
+  display: none;
+}
+.partner-section div {
+  max-width: 40%;
+}
+.partner-section p {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400;
+  color: orange;
+}
+.partner-section h2 {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 106%;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .partner-section {
+    padding: 5px;
+  }
+  .partner-section .desktop {
+    display: none;
+  }
+
+  .partner-section .mobiles {
+    display: block;
+  }
+
+  .partner-section div {
+    max-width: 100%;
+  }
+
+  .partner-section h2 {
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,63 @@
+.cta-section {
+  background: radial-gradient(circle at 20% 20%, rgba(255, 192, 203, 0.2), transparent),
+    radial-gradient(circle at 80% 80%, rgba(255, 165, 0, 0.2), transparent),
+    linear-gradient(to bottom, #0a0914, #1e1d2f);
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+  position: relative;
+  overflow: hidden;
+  font-family: "Satoshi", sans-serif;
+}
+
+.cta-section h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 106%;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn-outline {
+  padding: 12px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-filled {
+  padding: 12px 24px;
+  background: #8b5cf6;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-filled:hover {
+  background: #7a3ded;
+}

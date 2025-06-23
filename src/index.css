@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Variable.woff2") format("woff2");
+  font-weight: 100 900; /* supports all weights */
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Satoshi", sans-serif;
+}
