@@ -97,7 +97,7 @@ const Footer = () => {
   return (
     <>
       {/* Desktop Footer */}
-      <footer className="footer footer-desktop">
+      <footer id="footer" className="footer footer-desktop">
         <div className="footer-brand">
           <img src="./Images/BrandLogo.png" alt="brand-logo" />
         </div>
@@ -150,9 +150,11 @@ const Footer = () => {
       </footer>
 
       {/* Mobile Accordion Footer */}
-      <footer className="footer footer-mobile">
+      <footer id="footer" className="footer footer-mobile">
         <div className="footer-brand">
-          <img src="./Images/BrandLogo.png" alt="brand-logo" />
+          <a href="#">
+            <img src="./Images/BrandLogo.png" alt="brand-logo" />
+          </a>
         </div>
         {footerSections.map((section, index) => (
           <div className="footer-section" key={index}>
