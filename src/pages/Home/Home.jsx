@@ -3,7 +3,6 @@ import Customers from "../../components/Customers/Customers";
 import FAQSection from "../../components/FAQSection/FAQSection";
 import Footer from "../../components/Footer/Footer";
 import Hero from "../../components/Hero/Hero";
-import Navbar from "../../components/Navbar/Navbar";
 import { Partner } from "../../components/Partner/Partner";
 import PartnershipPgm from "../../components/PartnershipPgm/PartnershipPgm";
 import PreFooter from "../../components/PreFooter/PreFooter";

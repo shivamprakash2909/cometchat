@@ -2,13 +2,14 @@ import "./Hero.css";
 
 import Navbar from "../Navbar/Navbar";
 import HeroSection from "../HeroSection/HeroSection";
+import HeroWrapper from "./HeroWrapper";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <HeroWrapper>
       <Navbar />
       <HeroSection />
-    </div>
+    </HeroWrapper>
   );
 };
 
