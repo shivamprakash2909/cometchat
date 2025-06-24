@@ -14,7 +14,6 @@
   animation: gradientFlow 15s ease infinite;
   color: white;
   text-align: center;
-  font-family: "Satoshi", sans-serif;
   position: relative;
   overflow: hidden;
 }

@@ -3,7 +3,6 @@
   margin: 80px auto;
   padding: 0 20px;
   text-align: center;
-  font-family: "Satoshi", sans-serif;
 }
 
 .faq-subtitle {
@@ -13,7 +12,6 @@
 }
 
 .faq-title {
-  font-family: "Satoshi", sans-serif;
   font-weight: 400;
   font-size: 48px;
   line-height: 106%;
@@ -38,7 +36,6 @@
 
 .faq-question {
   display: flex;
-  font-family: "Satoshi", sans-serif;
   font-weight: 300;
   justify-content: space-between;
   align-items: center;
