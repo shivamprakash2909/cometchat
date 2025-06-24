@@ -58,3 +58,9 @@
 .btn-filled:hover {
   background: rgb(126, 34, 206);
 }
+
+@media screen and (max-width: 680px) {
+  .cta-section {
+    text-align: start;
+  }
+}
